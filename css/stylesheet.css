@@ -1,0 +1,307 @@
+/* -------------------------------------------------------- */
+/* BASIC SET-UP */
+/* -------------------------------------------------------- */
+
+html {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Open-Sans', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------------------------- */
+body {
+    text-align: center;
+}
+.row {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* ------ HEADER ------ */
+
+h1, 
+h2, 
+h3 { 
+    font-weight: 300;
+    letter-spacing: 1px;
+    }
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 240%;
+    word-spacing: 4px;
+    display: block;
+    text-align: center;
+    font-family: 'Beth Ellen', cursive;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%; 
+    margin-bottom: 15px;
+    
+}
+/* --------- PARAGRAPHS ------- */
+
+
+
+
+/*------------ HEADER --------*/
+
+.header-pic {
+    display: block;
+    width: 75%;
+    margin: 15px auto;
+}
+
+
+.header-pic2 {
+    display: block;
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/*------- LINES ----------*/
+
+hr {
+    width: 30%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#000;
+    border: 0 none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+.group-text-line {
+    width: 25%;
+    height: 1.25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#000;
+    border: 0 none;
+    margin-bottom: 50px;
+}
+
+
+/*---------- POEMS -----------*/
+
+.poem-1, 
+.poem-2, 
+.poem-3 {
+    text-align: left;
+    font-family: monospace;
+    letter-spacing: 0.5px;
+    font-size: 70%;
+    margin-left: 440px;
+}
+
+
+/*---------- TEXT ------------*/
+
+
+.quote-three {
+    font-size: 65%;
+    letter-spacing: 0.6px;
+    line-height: 175%;
+    font-family: monospace;
+    padding: 10px;
+    border: 3px solid #000;
+    width: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.group1-text, 
+.group2-text, 
+.group3-text,
+.group6-text,
+.group11-text,
+.group10-text,
+.group7-text,
+.group5-text,
+.group13-text,
+.group9-text,
+.group15-text {
+    margin-top: 85px;
+}
+
+
+.last-line {
+    font-family: monospace;
+    font-size: 75%;
+    letter-spacing: 0.5px;
+    text-align: end;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.row text {
+    font-family: monospace;
+    font-size: 19px;
+}
+
+.grouptext {
+    font-family: monospace;
+    font-size: 80%;
+}
+
+
+/*-------------------- BODY PHOTOS ------------------------------*/
+
+.group img {
+    height: auto;
+    padding-bottom: 20px;
+    width: 60%;
+}
+
+.roopic img {
+    width: 70%;
+    height: auto;
+    margin-bottom:20px;
+}
+
+.roopic2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom:20px;
+}
+
+.online img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.middybig {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.middy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.lefty {
+    margin-left: 20%;
+    width: 30%;
+}
+
+.leftybig { 
+    margin-left: 20%;
+    width: 30%;
+    }
+
+.righty {
+    margin-left: 50%;
+    width: 30%;
+}
+
+.rightybig {
+    margin-left: 50%;
+    width: 30%;
+}
+
+.middybighor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.middyhor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.leftyhor {
+    margin-left: 20%;
+    width: 40%;
+}
+
+.leftybighor { 
+    margin-left: 20%;
+    width: 40%;
+    }
+
+.rightyhor {
+    margin-left: 50%;
+    width: 40%;
+}
+
+.rightybighor {
+    margin-left: 50%;
+    width: 40%;
+}
+
+
+/*------- GROUP 1 PHOTOS -------*/
+
+.gif-confetti {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*------- GROUP 2 PHOTOS -------*/
+
+
+
+/*------- GROUP 3 PHOTOS -------*/
+
+/*------- GROUP 6 PHOTOS -------*/
+
+/*------- GROUP 11 PHOTOS -------*/
+
+.gif-office {
+    display: block;
+    text-align: right;
+    margin-right: 350px;
+}
+
+/*------- GROUP 10(4) PHOTOS -----*/
+
+/*------- GROUP 7 PHOTOS -------*/
+
+/*------- GROUP 8 PHOTOS -------*/
+
+/*------- GROUP 5 PHOTOS -------*/
+
+/*------- GROUP 13 PHOTOS -------*/
+
+/*------- GROUP 9 PHOTOS -------*/
+
+/*------- GROUP 15 PHOTOS -------*/
+
+
+
